@@ -36,6 +36,6 @@ examples/*/fonts/
 *.ttf
 *.otf
 
-# ترجمات شخصية | Personal translations
-examples/*/translations/
+# Personal translations — uncomment to ignore
+# examples/*/translations/
 my_translation/
