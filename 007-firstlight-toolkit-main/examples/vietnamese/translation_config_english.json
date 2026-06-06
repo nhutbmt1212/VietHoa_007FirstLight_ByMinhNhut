@@ -1,0 +1,9 @@
+{
+  "_comment": "Config RESTORE — inject lai ban tieng Anh goc vao game",
+
+  "language": "none",
+
+  "ui":        "d:/VietHoa_007FirstLight/localization/extracted/ui.json",
+  "dialogue":  "d:/VietHoa_007FirstLight/localization/extracted/dialogue.json",
+  "speakers":  "d:/VietHoa_007FirstLight/localization/extracted/speakers.json"
+}

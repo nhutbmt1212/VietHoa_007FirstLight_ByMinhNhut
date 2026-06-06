@@ -1,0 +1,9 @@
+{
+  "_comment": "Config việt hóa 007 First Light (UI + dialogue + speaker names)",
+
+  "language": "none",
+
+  "ui":        "./translations/ui.json",
+  "dialogue":  "./translations/dialogue.json",
+  "speakers":  "./translations/speakers.json"
+}

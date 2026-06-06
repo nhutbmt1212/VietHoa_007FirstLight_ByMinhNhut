@@ -1,0 +1,52 @@
+{
+  "_comment_vi": "Cấu hình font tiếng Việt — scale riêng từng font, match advance width với font gốc",
+  "_comment_en": "Vietnamese font config — per-font scale matching original advance widths",
+
+  "scale_em": 1024,
+  "scale_size": 20,
+  "ttf_upm": 1000,
+  "flip_y": true,
+
+  "_scale_note": "scale_size_per_font ghi đè scale_size cho từng font_id, tính từ advance width font gốc",
+  "scale_size_per_font": {
+    "1": 16.10,
+    "2": 19.47,
+    "3": 16.90,
+    "4": 16.68,
+    "5": 16.31,
+    "6": 16.49
+  },
+
+  "weights": {
+    "1": "d:/VietHoa_007FirstLight/007-firstlight-toolkit-main/examples/vietnamese/fonts/NotoSans-Bold.ttf",
+    "2": "d:/VietHoa_007FirstLight/007-firstlight-toolkit-main/examples/vietnamese/fonts/NotoSans-Regular.ttf",
+    "3": "d:/VietHoa_007FirstLight/007-firstlight-toolkit-main/examples/vietnamese/fonts/NotoSans-Regular.ttf",
+    "4": "d:/VietHoa_007FirstLight/007-firstlight-toolkit-main/examples/vietnamese/fonts/NotoSans-Regular.ttf",
+    "5": "d:/VietHoa_007FirstLight/007-firstlight-toolkit-main/examples/vietnamese/fonts/NotoSans-SemiBold.ttf",
+    "6": "d:/VietHoa_007FirstLight/007-firstlight-toolkit-main/examples/vietnamese/fonts/NotoSans-Medium.ttf"
+  },
+
+  "codepoints": {
+    "_comment": "130 codepoints tiếng Việt thiết yếu — vừa cả font 3 nhỏ nhất",
+    "ranges": [
+      [7840, 7930]
+    ],
+    "extras": [
+      192, 193, 194, 195,
+      200, 201, 202,
+      204, 205,
+      210, 211, 212, 213,
+      217, 218,
+      221,
+      224, 225, 226, 227,
+      232, 233, 234,
+      236, 237,
+      242, 243, 244, 245,
+      249, 250,
+      253,
+      258, 259,
+      272, 273,
+      416, 417, 431, 432
+    ]
+  }
+}
