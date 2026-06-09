@@ -26,10 +26,10 @@ OUT_FILE      = r"d:\VietHoa_007FirstLight\007-firstlight-toolkit-main\examples\
 PROGRESS_FILE = r"d:\VietHoa_007FirstLight\localization\ui_progress_v2.json"
 LOG_FILE      = r"d:\VietHoa_007FirstLight\localization\ui_translate_log_v2.txt"
 
-BATCH_SIZE    = 20
+BATCH_SIZE    = 40    # UI string ngắn, tăng mạnh batch
 TEMPERATURE   = 0.05
 TIMEOUT       = 200
-MAX_LEN       = 300   # Bỏ qua string quá dài (legal text)
+MAX_LEN       = 300
 
 # ─── DICTIONARY FALLBACK ─────────────────────────────────────────
 # Dùng dict này trước — không cần AI cho các chuỗi phổ biến
@@ -304,10 +304,10 @@ def ollama_generate(prompt: str) -> str:
         "stream": False,
         "options": {
             "temperature": TEMPERATURE,
-            "num_predict": 2048,
-            "num_ctx": 8192,
-            "num_gpu": 99,
-            "num_thread": 8,
+            "num_predict": 1500,  # Batch 40 strings, mỗi string ~10-30 từ
+            "num_ctx":     4096,  # Đủ cho UI strings ngắn
+            "num_gpu":     99,
+            "num_thread":  8,
         }
     }).encode("utf-8")
     req = urllib.request.Request(

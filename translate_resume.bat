@@ -13,8 +13,7 @@ set OLLAMA_KV_CACHE_TYPE=q8_0
 
 cls
 echo ============================================================
-echo  RESUME - Tiep tuc tu cho da dung
-echo  Dialogue truoc, UI sau
+echo  RESUME - Tiep tuc dich Dialogue tu cho da dung
 echo ============================================================
 echo.
 
@@ -32,22 +31,13 @@ set START_TIME=%TIME%
 echo [START] %DATE% %TIME%
 echo.
 
-echo [1/2] DICH DIALOGUE (resume)...
+echo [1/1] DICH DIALOGUE (resume)...
 "%PYTHON%" "%LOC%\translate_dialogue_v3.py"
 if %ERRORLEVEL% NEQ 0 (
     echo [LOI] Dialogue that bai!
     pause & exit /b 1
 )
 echo [OK] Dialogue xong luc %TIME%
-echo.
-
-echo [2/2] DICH UI (resume)...
-"%PYTHON%" "%LOC%\translate_ui_v2.py"
-if %ERRORLEVEL% NEQ 0 (
-    echo [LOI] UI that bai!
-    pause & exit /b 1
-)
-echo [OK] UI xong luc %TIME%
 echo.
 
 echo [POST] fix_rogue_tags...

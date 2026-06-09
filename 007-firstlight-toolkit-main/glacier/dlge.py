@@ -68,27 +68,33 @@ def get_base_text(raw):
     try:
         pt = rpkg.xtea_decrypt(raw[info["base_payload_off"]:
                                    info["base_payload_off"] + info["base_len"]])
-        return pt.split(b"\x00")[0].decode("latin-1")
+        blob = pt.split(b"\x00")[0]
+        # Thử UTF-8 trước (bản dịch đã inject), fallback latin-1 (bản gốc EN)
+        try:
+            return blob.decode("utf-8")
+        except UnicodeDecodeError:
+            return blob.decode("latin-1")
     except Exception:
         return None
 
 
 def parse_speaker(text):
-    """يستخرج اسم المتحدّث من base block.
-       Extract speaker info from base block.
-       يرجع dict أو None. | Returns dict or None.
-         {speaker_code, speaker_name, has_zero_placeholder}"""
     if text is None:
         return None
-    fields = list(FIELD.finditer(text.encode("latin-1")))
+    # text có thể là str (UTF-8 hoặc latin-1) — encode lại bằng utf-8 để regex bytes
+    try:
+        b = text.encode("utf-8")
+    except Exception:
+        b = text.encode("latin-1", errors="replace")
+    fields = list(FIELD.finditer(b))
     if len(fields) < 2:
         return None
-    code = fields[0].group(1).decode("utf-8", errors="replace")
+    code     = fields[0].group(1).decode("utf-8", errors="replace")
     name_raw = fields[1].group(1).decode("utf-8", errors="replace")
     name = name_raw
     if name.startswith("{") and name.endswith("}"):
         name = name[1:-1]
-    has_zero = "{0}" in name
+    has_zero  = "{0}" in name
     name_core = name.replace("{0}", "").strip()
     return {
         "speaker_code": code,
@@ -98,10 +104,6 @@ def parse_speaker(text):
 
 
 def parse_segments(text):
-    """يفصّل النص المنطوق إلى مقاطع زمنية.
-       Split spoken text into timed segments.
-       يرجع: {'single': '...'} لو مقطع واحد، أو {'seg0': ..., 'seg1': ...}.
-       Returns either {'single': '...'} or {'seg0': ..., 'seg1': ...}."""
     if text is None:
         return {}
     tims = list(TIM.finditer(text))
@@ -141,7 +143,11 @@ def inject_spoken(raw, segments, shape_fn=None):
     try:
         pt = rpkg.xtea_decrypt(raw[info["base_payload_off"]:
                                    info["base_payload_off"] + info["base_len"]])
-        s = pt.split(b"\x00")[0].decode("latin-1")
+        blob = pt.split(b"\x00")[0]
+        try:
+            s = blob.decode("utf-8")
+        except UnicodeDecodeError:
+            s = blob.decode("latin-1")
     except Exception:
         return None
 
@@ -192,7 +198,13 @@ def inject_speaker(raw, name_map, shape_fn=None):
     try:
         pt = rpkg.xtea_decrypt(raw[info["base_payload_off"]:
                                    info["base_payload_off"] + info["base_len"]])
-        sraw = pt.split(b"\x00")[0]
+        blob = pt.split(b"\x00")[0]
+        try:
+            sraw = blob
+            s = blob.decode("utf-8")
+        except UnicodeDecodeError:
+            sraw = blob
+            s = blob.decode("latin-1")
     except Exception:
         return None
 

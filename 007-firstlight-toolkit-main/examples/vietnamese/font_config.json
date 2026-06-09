@@ -27,7 +27,7 @@
   },
 
   "codepoints": {
-    "_comment": "130 codepoints tiếng Việt thiết yếu — vừa cả font 3 nhỏ nhất",
+    "_comment": "134 codepoints tiếng Việt — đủ tất cả ký tự kể cả ũ ĩ",
     "ranges": [
       [7840, 7930]
     ],
@@ -46,6 +46,8 @@
       253,
       258, 259,
       272, 273,
+      296, 297,
+      360, 361,
       416, 417, 431, 432
     ]
   }

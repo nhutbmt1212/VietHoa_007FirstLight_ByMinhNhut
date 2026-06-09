@@ -1,0 +1,2620 @@
+[
+  {
+    "key": "017CA74ECA674F1F",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "[In Serbian] Yeah, yeah.",
+    "vi": "[In Serbian] Yeah, yeah."
+  },
+  {
+    "key": "014F7393F3CF3B7D",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "[scoff] Good grief...",
+    "vi": "[scoff] Good grief..."
+  },
+  {
+    "key": "01E724050EC2C290",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "Ahem.",
+    "vi": "Ahem."
+  },
+  {
+    "key": "01FE930525918E29",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "[whistle] Didn't see that coming. Well, donât let me stop you.",
+    "vi": "[whistle] Didn't see that coming. Well, donât let me stop you."
+  },
+  {
+    "key": "01C3DF1774DA38B8",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "Right... [sigh] Well, you better get out of here.",
+    "vi": "Right... [sigh] Well, you better get out of here."
+  },
+  {
+    "key": "01B84C274944F924",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "Ahem.",
+    "vi": "Ahem."
+  },
+  {
+    "key": "01F19FAD5AB68DE1",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "Well, he's not in here. Try operations.",
+    "vi": "Well, he's not in here. Try operations."
+  },
+  {
+    "key": "011DF63243D3CE52",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "[Gasps]",
+    "vi": "[Gasps]"
+  },
+  {
+    "key": "017DEB9B75714780",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "[Winces]",
+    "vi": "[Winces]"
+  },
+  {
+    "key": "01A4F746FFE91766",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "01A87650064FF0B1",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "0139920C68E333A3",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "01EEE15D15E1C517",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "01B70831AE4BE3AC",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "01598679895A1969",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "0189DCE5D4C7E9CC",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "0124707356FC12D9",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Speaking in Serbian] Hey, we just got orders to stay here.",
+    "vi": "[Speaking in Serbian] Hey, we just got orders to stay here."
+  },
+  {
+    "key": "01A9F2479AB29C1C",
+    "seg": "single",
+    "speaker": "Mercenary",
+    "en": "[whistle] Didn't see that coming. Well, donât let me stop you.",
+    "vi": "[whistle] Didn't see that coming. Well, donât let me stop you."
+  },
+  {
+    "key": "01FD621EFDB446DE",
+    "seg": "single",
+    "speaker": "Mercenary",
+    "en": "[scoff] Sounds like my Christmas lights. Go ahead, do your thing.",
+    "vi": "[scoff] Sounds like my Christmas lights. Go ahead, do your thing."
+  },
+  {
+    "key": "01B6977010BF9C2C",
+    "seg": "single",
+    "speaker": "Mercenary",
+    "en": "[scoff] Are you kidding me?",
+    "vi": "[scoff] Are you kidding me?"
+  },
+  {
+    "key": "0146BB14A58BD92D",
+    "seg": "single",
+    "speaker": "Mercenary",
+    "en": "[chuckle] Say no more.",
+    "vi": "[chuckle] Say no more."
+  },
+  {
+    "key": "01E3121648B35615",
+    "seg": "single",
+    "speaker": "Mercenary",
+    "en": "[scoff] Some people have no shame. Hope you catch them.",
+    "vi": "[scoff] Some people have no shame. Hope you catch them."
+  },
+  {
+    "key": "01770178C14F4CA3",
+    "seg": "single",
+    "speaker": "Mercenary",
+    "en": "[scoff] Make it fast.",
+    "vi": "[scoff] Make it fast."
+  },
+  {
+    "key": "01EAF2D5F93D8CB9",
+    "seg": "single",
+    "speaker": "Mercenary",
+    "en": "[sigh] Be quick. Buyer's expected soon.",
+    "vi": "[sigh] Be quick. Buyer's expected soon."
+  },
+  {
+    "key": "0163B3EF9786E4FC",
+    "seg": "single",
+    "speaker": "Mercenary",
+    "en": "[sigh] Fine. Don't get in anyone's way.",
+    "vi": "[sigh] Fine. Don't get in anyone's way."
+  },
+  {
+    "key": "01A9597FD38FEA66",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "017A734AFE33892E",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "01DB683DA0223C8E",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "010D64C54B6507E8",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "01C18E19E7087C5B",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "01FCC67D9BF67883",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "014174B9A3B45994",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "01CCB183A1A5950D",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "018611F8FFD3C0E7",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "01413EBD64B49F34",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Bond.",
+    "vi": "Bond."
+  },
+  {
+    "key": "01DCA5050BD35F94",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "01FADFE4E34981AE",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "015116BDFA7C7D32",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "019FA2ABA6A92B17",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "019383E095DC1C0B",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "011975F15F469E6A",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "010068F297EF662B",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "01FF4A6A993AB412",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "018DC07952F01F80",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "01364D897C958C0E",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "011E5EA723073156",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "013F0B8B9ECBE394",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "015120C5FD2BF4D3",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "01045EE927236EDD",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "0181F60150B0AAC9",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "0162A6583B998A09",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "01C1E0B584B50895",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "018DDA1A042D6A9E",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "0117E80404B2EF4B",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "01A63C4094FAA08C",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "017CEC8565C95870",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "01B80FFF53B80105",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "012318870BE1A0BA",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostiles communicating]",
+    "vi": "[Hostiles communicating]"
+  },
+  {
+    "key": "01F81DE42D17893C",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "019D046AAC325551",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "012E1D6B5A7019AC",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "017F7CAEBB101642",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "01D7A0BDCBC1E8CB",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "01C6ADB39EA11BB6",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Hostile radio chatter]",
+    "vi": "[Hostile radio chatter]"
+  },
+  {
+    "key": "01CE3D56A36EFC57",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "[In Montenegrin] Relax. I'll be out in a sec.",
+    "vi": "[In Montenegrin] Relax. I'll be out in a sec."
+  },
+  {
+    "key": "01DB21B2380846B0",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[In Montenegrin] There you are! What's taking you so long?",
+    "vi": "[In Montenegrin] There you are! What's taking you so long?"
+  },
+  {
+    "key": "014F7F227302D6FE",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Speaking in Serbian] Hey, what the... forget it.",
+    "vi": "[Speaking in Serbian] Hey, what the... forget it."
+  },
+  {
+    "key": "017A1A0AE3735DCF",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Laughs] Nobody's ever really out. You know that, right?",
+    "vi": "[Laughs] Nobody's ever really out. You know that, right?"
+  },
+  {
+    "key": "01061770DF8CBBEE",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "Yeah! Somewhere sunny. [Grunts]",
+    "vi": "Yeah! Somewhere sunny. [Grunts]"
+  },
+  {
+    "key": "01D0B648B56E8C95",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Grunts] How much longer have we got?",
+    "vi": "[Grunts] How much longer have we got?"
+  },
+  {
+    "key": "01169A95DDEC445D",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Chuckles] I blessed him. Twice. Once in the head, and once in the heart.",
+    "vi": "[Chuckles] I blessed him. Twice. Once in the head, and once in the heart."
+  },
+  {
+    "key": "017E06BC2603718D",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Chuckles] Looks like daddy will miss a few more bedtime stories.",
+    "vi": "[Chuckles] Looks like daddy will miss a few more bedtime stories."
+  },
+  {
+    "key": "01B335A3EC690D19",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[In Serbian] Holy shit.",
+    "vi": "[In Serbian] Holy shit."
+  },
+  {
+    "key": "015934AF79E67DD5",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Speaking in Serbian]",
+    "vi": "[Speaking in Serbian]"
+  },
+  {
+    "key": "015550023DA2EB8C",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "John Greenway?",
+    "vi": "John Greenway?"
+  },
+  {
+    "key": "01B94129F7D658C4",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Greenway?",
+    "vi": "Greenway?"
+  },
+  {
+    "key": "015F2C5DBCA4C090",
+    "seg": "seg0",
+    "speaker": "Bond",
+    "en": "Ponsonby.",
+    "vi": "Ponsonby."
+  },
+  {
+    "key": "01BEBBD67043913B",
+    "seg": "single",
+    "speaker": "Moneypenny",
+    "en": "Ugh",
+    "vi": "Ugh"
+  },
+  {
+    "key": "01A181FB8DF6C26C",
+    "seg": "single",
+    "speaker": "Moneypenny",
+    "en": "James?",
+    "vi": "James?"
+  },
+  {
+    "key": "019CC9D83B2D0830",
+    "seg": "single",
+    "speaker": "Security",
+    "en": "Move away. [beat] Now.",
+    "vi": "Move away. [beat] Now."
+  },
+  {
+    "key": "01E392F680D90F6A",
+    "seg": "single",
+    "speaker": "Greenway",
+    "en": "Bond?",
+    "vi": "Bond?"
+  },
+  {
+    "key": "01476CCBE52B5E25",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Greenway?",
+    "vi": "Greenway?"
+  },
+  {
+    "key": "0115CA425779B9A4",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "You never actually planned to pack it in tonight, did you?",
+    "vi": "You never actually planned to pack it in tonight, did you?"
+  },
+  {
+    "key": "019B6A3281B2B615",
+    "seg": "single",
+    "speaker": "Greenway",
+    "en": "[Laughs]",
+    "vi": "[Laughs]"
+  },
+  {
+    "key": "0105393FACDDB666",
+    "seg": "single",
+    "speaker": "Greenway",
+    "en": "[Exerts]",
+    "vi": "[Exerts]"
+  },
+  {
+    "key": "01535181BD3059BD",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "[Exerts]",
+    "vi": "[Exerts]"
+  },
+  {
+    "key": "01CE33D577654B02",
+    "seg": "seg0",
+    "speaker": "Bond",
+    "en": "Slovakia.",
+    "vi": "Slovakia."
+  },
+  {
+    "key": "015B9E1C08B84789",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Vietnam.",
+    "vi": "Vietnam."
+  },
+  {
+    "key": "0165C104589A58BC",
+    "seg": "seg0",
+    "speaker": "Damien",
+    "en": "James!",
+    "vi": "James!"
+  },
+  {
+    "key": "012BDD423352C03D",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "[Coughs]",
+    "vi": "[Coughs]"
+  },
+  {
+    "key": "016185FC9C2BB558",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Greenway?!",
+    "vi": "Greenway?!"
+  },
+  {
+    "key": "016DA4B7BDBD576E",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "[Coughs]",
+    "vi": "[Coughs]"
+  },
+  {
+    "key": "019058B6C4E14800",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Greenway.",
+    "vi": "Greenway."
+  },
+  {
+    "key": "0126F54517F27090",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "[giggle] Say no more.",
+    "vi": "[giggle] Say no more."
+  },
+  {
+    "key": "015D183A00943691",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "Whoa, you're kidding?",
+    "vi": "Whoa, you're kidding?"
+  },
+  {
+    "key": "01580E1104FFE21A",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "No. Nothing like that.",
+    "vi": "No. Nothing like that."
+  },
+  {
+    "key": "01CBC2FEB1CCE0A1",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "No shit. You need some extra muscle?",
+    "vi": "No shit. You need some extra muscle?"
+  },
+  {
+    "key": "0137976A45E0E26E",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "What a bastard. You need some extra muscle?",
+    "vi": "What a bastard. You need some extra muscle?"
+  },
+  {
+    "key": "018D3EFF2BB88BF7",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "But... Aw hell!",
+    "vi": "But... Aw hell!"
+  },
+  {
+    "key": "018B5CBC6A0F8880",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "What?",
+    "vi": "What?"
+  },
+  {
+    "key": "01CE1B7E94E79C06",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "Um... I didn't see anybody.",
+    "vi": "Um... I didn't see anybody."
+  },
+  {
+    "key": "016CA0996D4D540F",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "Um... okay then. You can have a look.",
+    "vi": "Um... okay then. You can have a look."
+  },
+  {
+    "key": "01ADA1015D649D98",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "No... they were already gone. You guys sure are fast.",
+    "vi": "No... they were already gone. You guys sure are fast."
+  },
+  {
+    "key": "01D5A307C33FEB60",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "No, sounds like I'd remember.",
+    "vi": "No, sounds like I'd remember."
+  },
+  {
+    "key": "01BBFBA5D5EC2747",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "Some people have no shame. Hope you catch them.",
+    "vi": "Some people have no shame. Hope you catch them."
+  },
+  {
+    "key": "01AF21C56E0B3B96",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "What? Oh. Well, I guess be quick about that.",
+    "vi": "What? Oh. Well, I guess be quick about that."
+  },
+  {
+    "key": "01F894F802946AB5",
+    "seg": "seg0",
+    "speaker": "Webb Staff",
+    "en": "Oh, Fiona... have you met Bertie, our safety inspector?",
+    "vi": "Oh, Fiona... have you met Bertie, our safety inspector?"
+  },
+  {
+    "key": "01F894F802946AB5",
+    "seg": "seg1",
+    "speaker": "Webb Staff",
+    "en": "The man just ordered round desks for everyone because he doesn't trust sharp corners.",
+    "vi": "The man just ordered round desks for everyone because he doesn't trust sharp corners."
+  },
+  {
+    "key": "01F894F802946AB5",
+    "seg": "seg2",
+    "speaker": "Webb Staff",
+    "en": "I assure you, if Bertie signed off on it, it is probably good for your health.",
+    "vi": "I assure you, if Bertie signed off on it, it is probably good for your health."
+  },
+  {
+    "key": "01B49084486028C0",
+    "seg": "single",
+    "speaker": "Webb Staff",
+    "en": "This degaussing process... is it entirely safe?",
+    "vi": "This degaussing process... is it entirely safe?"
+  },
+  {
+    "key": "01098EFB1C6B2B21",
+    "seg": "seg0",
+    "speaker": "Webb Staff",
+    "en": "Don't worry, we maintain a complete backup at the Webb R&D facility. Nothing gets lost. Now, if there's nothing else...",
+    "vi": "Don't worry, we maintain a complete backup at the Webb R&D facility. Nothing gets lost. Now, if there's nothing else..."
+  },
+  {
+    "key": "01098EFB1C6B2B21",
+    "seg": "seg1",
+    "speaker": "Webb Staff",
+    "en": "Yes, Fiona.",
+    "vi": "Yes, Fiona."
+  },
+  {
+    "key": "0158C0F86DA8B6C6",
+    "seg": "single",
+    "speaker": "Webb Staff",
+    "en": "What happens to the deleted files?",
+    "vi": "What happens to the deleted files?"
+  },
+  {
+    "key": "0136D8080C1098BF",
+    "seg": "seg0",
+    "speaker": "Webb Staff",
+    "en": "Excellent question.",
+    "vi": "Excellent question."
+  },
+  {
+    "key": "0136D8080C1098BF",
+    "seg": "seg1",
+    "speaker": "Webb Staff",
+    "en": "If you are approached by the police, you tell them that you are not allowed to discuss sensitive company matters",
+    "vi": "If you are approached by the police, you tell them that you are not allowed to discuss sensitive company matters"
+  },
+  {
+    "key": "0136D8080C1098BF",
+    "seg": "seg2",
+    "speaker": "Webb Staff",
+    "en": "and refer them to our most excellent legal department.",
+    "vi": "and refer them to our most excellent legal department."
+  },
+  {
+    "key": "0136D8080C1098BF",
+    "seg": "seg3",
+    "speaker": "Webb Staff",
+    "en": "By the time they dig themselves out from under the mountain of red tape",
+    "vi": "By the time they dig themselves out from under the mountain of red tape"
+  },
+  {
+    "key": "0136D8080C1098BF",
+    "seg": "seg4",
+    "speaker": "Webb Staff",
+    "en": "that Roger Finch and his team is preparing to unceremoniously dump on them,",
+    "vi": "that Roger Finch and his team is preparing to unceremoniously dump on them,"
+  },
+  {
+    "key": "0136D8080C1098BF",
+    "seg": "seg5",
+    "speaker": "Webb Staff",
+    "en": "this unfortunate misunderstanding will be a thing of the past.",
+    "vi": "this unfortunate misunderstanding will be a thing of the past."
+  },
+  {
+    "key": "0136D8080C1098BF",
+    "seg": "seg6",
+    "speaker": "Webb Staff",
+    "en": "Yes, Morris...",
+    "vi": "Yes, Morris..."
+  },
+  {
+    "key": "013AA52CBEA3C911",
+    "seg": "single",
+    "speaker": "Webb Staff",
+    "en": "What do we tell the police?",
+    "vi": "What do we tell the police?"
+  },
+  {
+    "key": "01AAA04B50C73552",
+    "seg": "seg0",
+    "speaker": "Webb Staff",
+    "en": "If you must know, we have fallen victim to a sophisticated and malicious smear campaign.",
+    "vi": "If you must know, we have fallen victim to a sophisticated and malicious smear campaign."
+  },
+  {
+    "key": "01AAA04B50C73552",
+    "seg": "seg1",
+    "speaker": "Webb Staff",
+    "en": "Some rather impressive deep fakes have been leaked to the authorities by an as yet unnamed competitor.",
+    "vi": "Some rather impressive deep fakes have been leaked to the authorities by an as yet unnamed competitor."
+  },
+  {
+    "key": "01AAA04B50C73552",
+    "seg": "seg2",
+    "speaker": "Webb Staff",
+    "en": "This farce will soon be cleared up but management fears that in the meantime,",
+    "vi": "This farce will soon be cleared up but management fears that in the meantime,"
+  },
+  {
+    "key": "01AAA04B50C73552",
+    "seg": "seg3",
+    "speaker": "Webb Staff",
+    "en": "the police may insist on taking possession of certain servers, thus endangering the integrity of classified research.",
+    "vi": "the police may insist on taking possession of certain servers, thus endangering the integrity of classified research."
+  },
+  {
+    "key": "01AAA04B50C73552",
+    "seg": "seg4",
+    "speaker": "Webb Staff",
+    "en": "Better to conduct due diligence, wouldn't you agree?",
+    "vi": "Better to conduct due diligence, wouldn't you agree?"
+  },
+  {
+    "key": "018D5A7D3D0C8E29",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Greenway!",
+    "vi": "Greenway!"
+  },
+  {
+    "key": "01626E77CC723CB9",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Greenway.",
+    "vi": "Greenway."
+  },
+  {
+    "key": "017DB2B051F21ECC",
+    "seg": "single",
+    "speaker": "Building AI",
+    "en": "9...",
+    "vi": "9..."
+  },
+  {
+    "key": "01136F15189802C3",
+    "seg": "single",
+    "speaker": "Building AI",
+    "en": "8...",
+    "vi": "8..."
+  },
+  {
+    "key": "01E8AF4410B13601",
+    "seg": "single",
+    "speaker": "Building AI",
+    "en": "1...",
+    "vi": "1..."
+  },
+  {
+    "key": "01C16CD9166134F9",
+    "seg": "single",
+    "speaker": "Building AI",
+    "en": "4...",
+    "vi": "4..."
+  },
+  {
+    "key": "01408F1480DBBD47",
+    "seg": "single",
+    "speaker": "Building AI",
+    "en": "3...",
+    "vi": "3..."
+  },
+  {
+    "key": "015AF8FD481BB319",
+    "seg": "single",
+    "speaker": "Building AI",
+    "en": "2...",
+    "vi": "2..."
+  },
+  {
+    "key": "011E8A00C256134D",
+    "seg": "single",
+    "speaker": "Building AI",
+    "en": "5...",
+    "vi": "5..."
+  },
+  {
+    "key": "0182CC927FD5B389",
+    "seg": "single",
+    "speaker": "Building AI",
+    "en": "6...",
+    "vi": "6..."
+  },
+  {
+    "key": "015DD563E75E3FA1",
+    "seg": "single",
+    "speaker": "Building AI",
+    "en": "7...",
+    "vi": "7..."
+  },
+  {
+    "key": "01AC4D59F592FCBC",
+    "seg": "single",
+    "speaker": "MI6 Staff",
+    "en": "Ta.",
+    "vi": "Ta."
+  },
+  {
+    "key": "0135BFD8D73A5C4D",
+    "seg": "single",
+    "speaker": "MI6 Staff",
+    "en": "[Sighs] What a day.",
+    "vi": "[Sighs] What a day."
+  },
+  {
+    "key": "01D46647498FF396",
+    "seg": "seg0",
+    "speaker": "Moneypenny",
+    "en": "Charlotte Annabelle Roth.",
+    "vi": "Charlotte Annabelle Roth."
+  },
+  {
+    "key": "013F1AB6F9AF7838",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Now we're talking.",
+    "vi": "Now we're talking."
+  },
+  {
+    "key": "01E4F5F6A1534E6F",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "I assumed you'd run in the same circles.",
+    "vi": "I assumed you'd run in the same circles."
+  },
+  {
+    "key": "0193E39C6B903E8F",
+    "seg": "single",
+    "speaker": "Q",
+    "en": "Bond...",
+    "vi": "Bond..."
+  },
+  {
+    "key": "01A6664D97D784C1",
+    "seg": "seg0",
+    "speaker": "MI6 Staff",
+    "en": "Bond?",
+    "vi": "Bond?"
+  },
+  {
+    "key": "011006971CBCE158",
+    "seg": "single",
+    "speaker": "MI6 Staff",
+    "en": "[Gasping] I can't breathe...",
+    "vi": "[Gasping] I can't breathe..."
+  },
+  {
+    "key": "01FDFE855163B317",
+    "seg": "single",
+    "speaker": "M",
+    "en": "Duly noted.",
+    "vi": "Duly noted."
+  },
+  {
+    "key": "01771E98D3B63D58",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Damien.",
+    "vi": "Damien."
+  },
+  {
+    "key": "010AE83330AAB92D",
+    "seg": "single",
+    "speaker": "Moneypenny",
+    "en": "James...",
+    "vi": "James..."
+  },
+  {
+    "key": "011322E10D45A09E",
+    "seg": "seg0",
+    "speaker": "Moneypenny",
+    "en": "James... James...",
+    "vi": "James... James..."
+  },
+  {
+    "key": "017E71A1A3AB98AC",
+    "seg": "single",
+    "speaker": "Q",
+    "en": "Bond!",
+    "vi": "Bond!"
+  },
+  {
+    "key": "01A07BD7002B7486",
+    "seg": "seg0",
+    "speaker": "Damien",
+    "en": "James!",
+    "vi": "James!"
+  },
+  {
+    "key": "01D30FA759F5ADC8",
+    "seg": "seg0",
+    "speaker": "Bond",
+    "en": "Sir Nicholas Webb.",
+    "vi": "Sir Nicholas Webb."
+  },
+  {
+    "key": "01C2CFAE68772945",
+    "seg": "single",
+    "speaker": "Cressida",
+    "en": "James?",
+    "vi": "James?"
+  },
+  {
+    "key": "019575685D462429",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Smythe. St. John Smythe.",
+    "vi": "Smythe. St. John Smythe."
+  },
+  {
+    "key": "0114E35C56AC03E3",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "Baz?",
+    "vi": "Baz?"
+  },
+  {
+    "key": "01D225DF96B54E25",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "I can sure as hell try.",
+    "vi": "I can sure as hell try."
+  },
+  {
+    "key": "0157E67FD3B5FD26",
+    "seg": "single",
+    "speaker": "Webb Operative",
+    "en": "[Laughs] That's a good one, must remember it.",
+    "vi": "[Laughs] That's a good one, must remember it."
+  },
+  {
+    "key": "010317B8CDBC8791",
+    "seg": "seg0",
+    "speaker": "Greenway",
+    "en": "Bond?",
+    "vi": "Bond?"
+  },
+  {
+    "key": "017A36910FC8649C",
+    "seg": "single",
+    "speaker": "Moneypenny",
+    "en": "James? James?",
+    "vi": "James? James?"
+  },
+  {
+    "key": "01A5D2BF32493896",
+    "seg": "single",
+    "speaker": "Moneypenny",
+    "en": "James?",
+    "vi": "James?"
+  },
+  {
+    "key": "01DAC10C655AD394",
+    "seg": "single",
+    "speaker": "Greenway",
+    "en": "Bond!",
+    "vi": "Bond!"
+  },
+  {
+    "key": "013EA4335857DBC1",
+    "seg": "single",
+    "speaker": "Damien",
+    "en": "[Roars]",
+    "vi": "[Roars]"
+  },
+  {
+    "key": "018B213DBBAA5741",
+    "seg": "single",
+    "speaker": "Damien",
+    "en": "[Groans]",
+    "vi": "[Groans]"
+  },
+  {
+    "key": "016BF91DEA7810CE",
+    "seg": "single",
+    "speaker": "Damien",
+    "en": "[Screams]",
+    "vi": "[Screams]"
+  },
+  {
+    "key": "01F4ABC65D82F9D5",
+    "seg": "single",
+    "speaker": "Greenway",
+    "en": "Damien?",
+    "vi": "Damien?"
+  },
+  {
+    "key": "01C95758D322DBA6",
+    "seg": "seg0",
+    "speaker": "Bond",
+    "en": "Greenway?",
+    "vi": "Greenway?"
+  },
+  {
+    "key": "01C95758D322DBA6",
+    "seg": "seg1",
+    "speaker": "Bond",
+    "en": "John.",
+    "vi": "John."
+  },
+  {
+    "key": "0110BC3673F602DA",
+    "seg": "single",
+    "speaker": "Guest",
+    "en": "[Laughs] You two just crack me up. That's another thing we have in common. The same kind of humour.",
+    "vi": "[Laughs] You two just crack me up. That's another thing we have in common. The same kind of humour."
+  },
+  {
+    "key": "01A9AAB88BC043E7",
+    "seg": "single",
+    "speaker": "Guest",
+    "en": "[Laughs] I hear you. I pay attention like that. Like I noticed that we have numbers in common. Finance and maths, right?",
+    "vi": "[Laughs] I hear you. I pay attention like that. Like I noticed that we have numbers in common. Finance and maths, right?"
+  },
+  {
+    "key": "01E5A95C9AAE1AEE",
+    "seg": "single",
+    "speaker": "Guest",
+    "en": "[Sighs] We're both in STEM.",
+    "vi": "[Sighs] We're both in STEM."
+  },
+  {
+    "key": "01159A828E2CF351",
+    "seg": "single",
+    "speaker": "Guest",
+    "en": "Ooooh...",
+    "vi": "Ooooh..."
+  },
+  {
+    "key": "0189947D8811E181",
+    "seg": "single",
+    "speaker": "Guest",
+    "en": "[Laughs] No way...",
+    "vi": "[Laughs] No way..."
+  },
+  {
+    "key": "01A0CCFB54E04513",
+    "seg": "seg1",
+    "speaker": "Guest",
+    "en": "Oh, and perhaps some kind of light bite to nibble on with our drinks?",
+    "vi": "Oh, and perhaps some kind of light bite to nibble on with our drinks?"
+  },
+  {
+    "key": "01BE5F33261BC210",
+    "seg": "seg1",
+    "speaker": "Staff",
+    "en": "[inhales]",
+    "vi": "[inhales]"
+  },
+  {
+    "key": "01FB14CCD7680214",
+    "seg": "seg0",
+    "speaker": "Staff",
+    "en": "Inhale... [inhales]",
+    "vi": "Inhale... [inhales]"
+  },
+  {
+    "key": "01FB14CCD7680214",
+    "seg": "seg1",
+    "speaker": "Staff",
+    "en": "Exhale... [exhales]",
+    "vi": "Exhale... [exhales]"
+  },
+  {
+    "key": "013AD2EC2BBC43B5",
+    "seg": "seg0",
+    "speaker": "Staff",
+    "en": "Inhale... [inhales]",
+    "vi": "Inhale... [inhales]"
+  },
+  {
+    "key": "013AD2EC2BBC43B5",
+    "seg": "seg1",
+    "speaker": "Staff",
+    "en": "Exhale... [exhales]",
+    "vi": "Exhale... [exhales]"
+  },
+  {
+    "key": "010E824EE7E4D208",
+    "seg": "seg0",
+    "speaker": "Staff",
+    "en": "Inhale... [inhales]",
+    "vi": "Inhale... [inhales]"
+  },
+  {
+    "key": "010E824EE7E4D208",
+    "seg": "seg1",
+    "speaker": "Staff",
+    "en": "Exhale... [exhales]",
+    "vi": "Exhale... [exhales]"
+  },
+  {
+    "key": "0134150663A42E63",
+    "seg": "seg0",
+    "speaker": "Staff",
+    "en": "Inhale... [inhales]",
+    "vi": "Inhale... [inhales]"
+  },
+  {
+    "key": "0134150663A42E63",
+    "seg": "seg1",
+    "speaker": "Staff",
+    "en": "Exhale... [exhales]",
+    "vi": "Exhale... [exhales]"
+  },
+  {
+    "key": "01AC958E6E61DE13",
+    "seg": "seg0",
+    "speaker": "Staff",
+    "en": "Inhale... [inhales]",
+    "vi": "Inhale... [inhales]"
+  },
+  {
+    "key": "01AC958E6E61DE13",
+    "seg": "seg1",
+    "speaker": "Staff",
+    "en": "Exhale... [exhales]",
+    "vi": "Exhale... [exhales]"
+  },
+  {
+    "key": "01D68B9A9D840EC1",
+    "seg": "seg0",
+    "speaker": "Staff",
+    "en": "Inhale... [inhales]",
+    "vi": "Inhale... [inhales]"
+  },
+  {
+    "key": "01D68B9A9D840EC1",
+    "seg": "seg1",
+    "speaker": "Staff",
+    "en": "Exhale... [exhales]",
+    "vi": "Exhale... [exhales]"
+  },
+  {
+    "key": "01D09C46AE68E3D6",
+    "seg": "single",
+    "speaker": "Guest",
+    "en": "[Laughs] You're evil.",
+    "vi": "[Laughs] You're evil."
+  },
+  {
+    "key": "018DE9E05BC28F64",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Sounds intense. I won't cry, will I?",
+    "vi": "Sounds intense. I won't cry, will I?"
+  },
+  {
+    "key": "0163D0D8BFF4DB6C",
+    "seg": "single",
+    "speaker": "Guest",
+    "en": "Tequila.",
+    "vi": "Tequila."
+  },
+  {
+    "key": "01A2D8184EE0BB17",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Gents.",
+    "vi": "Gents."
+  },
+  {
+    "key": "0127408832FF9BFF",
+    "seg": "single",
+    "speaker": "Security",
+    "en": "[Whistles a tune]",
+    "vi": "[Whistles a tune]"
+  },
+  {
+    "key": "01A0559D898E5AB3",
+    "seg": "single",
+    "speaker": "Security",
+    "en": "[Laughs] You're joking, right?",
+    "vi": "[Laughs] You're joking, right?"
+  },
+  {
+    "key": "0132A6C1C1463AB4",
+    "seg": "single",
+    "speaker": "Guest",
+    "en": "[Laughs] Mine walked out on me a long time ago.",
+    "vi": "[Laughs] Mine walked out on me a long time ago."
+  },
+  {
+    "key": "017C0B0ED34C4B8F",
+    "seg": "single",
+    "speaker": "Jonty",
+    "en": "[Laughs] My liver loves me right now.",
+    "vi": "[Laughs] My liver loves me right now."
+  },
+  {
+    "key": "01FB8251C2AFC367",
+    "seg": "single",
+    "speaker": "Guest",
+    "en": "[Scoffs] We'll see about that.",
+    "vi": "[Scoffs] We'll see about that."
+  },
+  {
+    "key": "0136DE725AF85707",
+    "seg": "single",
+    "speaker": "Chambers",
+    "en": "[Giggles] Not now.",
+    "vi": "[Giggles] Not now."
+  },
+  {
+    "key": "01621F80D4C27584",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Sounds delightful.",
+    "vi": "Sounds delightful."
+  },
+  {
+    "key": "01F6D32966F9B58D",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Chin-chin, Moneypenny.",
+    "vi": "Chin-chin, Moneypenny."
+  },
+  {
+    "key": "0147DD4C0B64F45A",
+    "seg": "single",
+    "speaker": "Moneypenny",
+    "en": "Agua Verde!",
+    "vi": "Agua Verde!"
+  },
+  {
+    "key": "012CB6C92310E987",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Ramon Hernandez?",
+    "vi": "Ramon Hernandez?"
+  },
+  {
+    "key": "0113C61ED9519AFA",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Agua Verde!",
+    "vi": "Agua Verde!"
+  },
+  {
+    "key": "01938D644277E03E",
+    "seg": "seg0",
+    "speaker": "Lorca",
+    "en": "Theresa.",
+    "vi": "Theresa."
+  },
+  {
+    "key": "017D810A7635AA1A",
+    "seg": "seg1",
+    "speaker": "Bond",
+    "en": "John.",
+    "vi": "John."
+  },
+  {
+    "key": "01D14EC47F1D54BB",
+    "seg": "single",
+    "speaker": "Guest",
+    "en": "[Laughs] Oh, of course. Online. Then it must be true. I think it sounds more like people with too much money, and too little meaning in life that will do just about anything to feel important about themselves.",
+    "vi": "[Laughs] Oh, of course. Online. Then it must be true. I think it sounds more like people with too much money, and too little meaning in life that will do just about anything to feel important about themselves."
+  },
+  {
+    "key": "019EC8B06473EFD1",
+    "seg": "seg3",
+    "speaker": "Q",
+    "en": "Steady now, donât panic, blow the whole thing.",
+    "vi": "Steady now, donât panic, blow the whole thing."
+  },
+  {
+    "key": "01982F29820DCB72",
+    "seg": "single",
+    "speaker": "Murto",
+    "en": "[Whistles]",
+    "vi": "[Whistles]"
+  },
+  {
+    "key": "014F0B66F35B97E1",
+    "seg": "single",
+    "speaker": "Murto",
+    "en": "Bond!",
+    "vi": "Bond!"
+  },
+  {
+    "key": "013C96BDB1373C41",
+    "seg": "single",
+    "speaker": "Lorca",
+    "en": "John?",
+    "vi": "John?"
+  },
+  {
+    "key": "014559AE8BEEC9D9",
+    "seg": "single",
+    "speaker": "Lorca",
+    "en": "John?",
+    "vi": "John?"
+  },
+  {
+    "key": "011E4AB323A99D4C",
+    "seg": "single",
+    "speaker": "Cressida",
+    "en": "James,",
+    "vi": "James,"
+  },
+  {
+    "key": "01E56DC5828D411A",
+    "seg": "single",
+    "speaker": "Cressida",
+    "en": "Cressida",
+    "vi": "Cressida"
+  },
+  {
+    "key": "011340467CA477FC",
+    "seg": "seg1",
+    "speaker": "Webb Operative",
+    "en": "[Scoffs] He's just an old geezer.",
+    "vi": "[Scoffs] He's just an old geezer."
+  },
+  {
+    "key": "010E1F599303AA4E",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Greenway...",
+    "vi": "Greenway..."
+  },
+  {
+    "key": "0172E3D669B5816E",
+    "seg": "single",
+    "speaker": "Hostile",
+    "en": "[Laughs] Indeed.",
+    "vi": "[Laughs] Indeed."
+  },
+  {
+    "key": "01D27C6BADA3654D",
+    "seg": "seg0",
+    "speaker": "Guest",
+    "en": "[Chuckles] I'm never very far away",
+    "vi": "[Chuckles] I'm never very far away"
+  },
+  {
+    "key": "0153FD8204527B9A",
+    "seg": "seg0",
+    "speaker": "Guest",
+    "en": "Meow.",
+    "vi": "Meow."
+  },
+  {
+    "key": "012102F0D81003DA",
+    "seg": "seg0",
+    "speaker": "Guest",
+    "en": "True.",
+    "vi": "True."
+  },
+  {
+    "key": "011D6266C1D8C92B",
+    "seg": "seg2",
+    "speaker": "Guest",
+    "en": "your side of the family will not be invited to tag along this year, okay?",
+    "vi": "your side of the family will not be invited to tag along this year, okay?"
+  },
+  {
+    "key": "017255EA98B1458F",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Mike Chacksfield.",
+    "vi": "Mike Chacksfield."
+  },
+  {
+    "key": "0122BEC17EFACE28",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Famous last words.",
+    "vi": "Famous last words."
+  },
+  {
+    "key": "01F9B07D7C7AC625",
+    "seg": "seg0",
+    "speaker": "Bond",
+    "en": "I'm sure my bank account wouldn't allow it.",
+    "vi": "I'm sure my bank account wouldn't allow it."
+  },
+  {
+    "key": "01F9B07D7C7AC625",
+    "seg": "seg1",
+    "speaker": "Bond",
+    "en": "Sir. I'm very sorry about what happened.",
+    "vi": "Sir. I'm very sorry about what happened."
+  },
+  {
+    "key": "018C6E0303A2F9AD",
+    "seg": "single",
+    "speaker": "Stephen Bright",
+    "en": "Bond?",
+    "vi": "Bond?"
+  },
+  {
+    "key": "01EEB710FE9D8E94",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Heimdall.",
+    "vi": "Heimdall."
+  },
+  {
+    "key": "01F2F14570826362",
+    "seg": "single",
+    "speaker": "Guest",
+    "en": "Ha! You're such a joker, Michelle.",
+    "vi": "Ha! You're such a joker, Michelle."
+  },
+  {
+    "key": "019429F67035202F",
+    "seg": "seg0",
+    "speaker": "Staff",
+    "en": "Yes ma'am, in the main hall directly behind me.",
+    "vi": "Yes ma'am, in the main hall directly behind me."
+  },
+  {
+    "key": "01795BCE951CB3AF",
+    "seg": "seg1",
+    "speaker": "Security",
+    "en": "Blonde. Tight black dress.",
+    "vi": "Blonde. Tight black dress."
+  },
+  {
+    "key": "01795BCE951CB3AF",
+    "seg": "seg2",
+    "speaker": "Security",
+    "en": "Definitely gave me the eye when she walked past me earlier.",
+    "vi": "Definitely gave me the eye when she walked past me earlier."
+  },
+  {
+    "key": "01A38A2340FBD5D1",
+    "seg": "seg0",
+    "speaker": "Moneypenny",
+    "en": "James!",
+    "vi": "James!"
+  },
+  {
+    "key": "01D15C82FF90442B",
+    "seg": "single",
+    "speaker": "Mystery Woman",
+    "en": "Damien!",
+    "vi": "Damien!"
+  },
+  {
+    "key": "0112F72D292DFD24",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Bond. James Bond.",
+    "vi": "Bond. James Bond."
+  },
+  {
+    "key": "01BB6C61636BAA30",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Webb.",
+    "vi": "Webb."
+  },
+  {
+    "key": "0124ADBFDBFE5B84",
+    "seg": "single",
+    "speaker": "Webb Security",
+    "en": "[Continues whistling]",
+    "vi": "[Continues whistling]"
+  },
+  {
+    "key": "01BC653AFC8C889A",
+    "seg": "single",
+    "speaker": "Webb Security",
+    "en": "[Whistles a tune]",
+    "vi": "[Whistles a tune]"
+  },
+  {
+    "key": "01D6E41585053C32",
+    "seg": "seg1",
+    "speaker": "Webb Security",
+    "en": "[Chuckles] It's called physics, mate. They had a pretty solid understanding of it.",
+    "vi": "[Chuckles] It's called physics, mate. They had a pretty solid understanding of it."
+  },
+  {
+    "key": "01FE6D3A20AEC8F6",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Bingo.",
+    "vi": "Bingo."
+  },
+  {
+    "key": "019D901DE5C1BCEF",
+    "seg": "single",
+    "speaker": "Damien",
+    "en": "[Laughs]",
+    "vi": "[Laughs]"
+  },
+  {
+    "key": "01AFEEC026BF22F5",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "[Breathes heavily]",
+    "vi": "[Breathes heavily]"
+  },
+  {
+    "key": "01866A9833D5B7BF",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Clear the road!",
+    "vi": "Clear the road!"
+  },
+  {
+    "key": "0159A54962F6C68F",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Buckle up!",
+    "vi": "Buckle up!"
+  },
+  {
+    "key": "01E043311FD764A8",
+    "seg": "single",
+    "speaker": "Cressida",
+    "en": "Bond?",
+    "vi": "Bond?"
+  },
+  {
+    "key": "01CCC547A86D73DD",
+    "seg": "single",
+    "speaker": "Cressida",
+    "en": "Bond?",
+    "vi": "Bond?"
+  },
+  {
+    "key": "01264EF015FA52FC",
+    "seg": "single",
+    "speaker": "Cressida",
+    "en": "009?",
+    "vi": "009?"
+  },
+  {
+    "key": "015C4576C35C835E",
+    "seg": "single",
+    "speaker": "Staff",
+    "en": "[Gasps]",
+    "vi": "[Gasps]"
+  },
+  {
+    "key": "016EA0607628EE26",
+    "seg": "seg1",
+    "speaker": "Guest",
+    "en": "Progress doesn't come from predictability.",
+    "vi": "Progress doesn't come from predictability."
+  },
+  {
+    "key": "012E14F9429CCC3D",
+    "seg": "seg0",
+    "speaker": "Guest",
+    "en": "George!",
+    "vi": "George!"
+  },
+  {
+    "key": "011BB963A8109404",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Monroe?",
+    "vi": "Monroe?"
+  },
+  {
+    "key": "011CB2A567D5E39B",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "That was... unusual.",
+    "vi": "That was... unusual."
+  },
+  {
+    "key": "01BB781D653890DC",
+    "seg": "single",
+    "speaker": "Staff",
+    "en": "Jolana...!",
+    "vi": "Jolana...!"
+  },
+  {
+    "key": "01B84A46D4DD1189",
+    "seg": "seg4",
+    "speaker": "Staff",
+    "en": "entrance and everything.",
+    "vi": "entrance and everything."
+  },
+  {
+    "key": "019AC8B781A510D9",
+    "seg": "single",
+    "speaker": "Guest",
+    "en": "Book collector, huh?",
+    "vi": "Book collector, huh?"
+  },
+  {
+    "key": "01B0F34AAF8E4EF5",
+    "seg": "seg0",
+    "speaker": "Staff",
+    "en": "I can't take credit, I'm afraid.",
+    "vi": "I can't take credit, I'm afraid."
+  },
+  {
+    "key": "01B0F34AAF8E4EF5",
+    "seg": "seg1",
+    "speaker": "Staff",
+    "en": "The hotel owner has a huge collection of mixology books",
+    "vi": "The hotel owner has a huge collection of mixology books"
+  },
+  {
+    "key": "01B0F34AAF8E4EF5",
+    "seg": "seg2",
+    "speaker": "Staff",
+    "en": "from the 20s.",
+    "vi": "from the 20s."
+  },
+  {
+    "key": "0115DD83838E4A3A",
+    "seg": "seg0",
+    "speaker": "Guest",
+    "en": "[Screams]",
+    "vi": "[Screams]"
+  },
+  {
+    "key": "0192871E33B5FAED",
+    "seg": "single",
+    "speaker": "Laundry worker",
+    "en": "We're out of the muslin silk sheets for the empress suite.",
+    "vi": "We're out of the muslin silk sheets for the empress suite."
+  },
+  {
+    "key": "01E71E2F658AE5F8",
+    "seg": "seg0",
+    "speaker": "Security",
+    "en": "[in foreign language] ...in pursuit of a possible intruder.",
+    "vi": "[in foreign language] ...in pursuit of a possible intruder."
+  },
+  {
+    "key": "01290AB55D9D8469",
+    "seg": "seg0",
+    "speaker": "Cressida",
+    "en": "Monroe?",
+    "vi": "Monroe?"
+  },
+  {
+    "key": "01290AB55D9D8469",
+    "seg": "seg2",
+    "speaker": "Cressida",
+    "en": "Lennox!",
+    "vi": "Lennox!"
+  },
+  {
+    "key": "016991227ECF3727",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Cressida?",
+    "vi": "Cressida?"
+  },
+  {
+    "key": "0121F49AAD8367F6",
+    "seg": "single",
+    "speaker": "Blond Man",
+    "en": "[Speaking in Finnish]",
+    "vi": "[Speaking in Finnish]"
+  },
+  {
+    "key": "0123E4F5647EAD60",
+    "seg": "single",
+    "speaker": "Blond Man",
+    "en": "[Speaking in Finnish]",
+    "vi": "[Speaking in Finnish]"
+  },
+  {
+    "key": "01F659E9EF3110FB",
+    "seg": "single",
+    "speaker": "Blond Man",
+    "en": "[Speaking in Finnish]",
+    "vi": "[Speaking in Finnish]"
+  },
+  {
+    "key": "01D89552BF212573",
+    "seg": "single",
+    "speaker": "Blond Man",
+    "en": "[Speaking in Finnish]",
+    "vi": "[Speaking in Finnish]"
+  },
+  {
+    "key": "0115566307B5A7B7",
+    "seg": "single",
+    "speaker": "Blond Man",
+    "en": "[Speaking in Finnish]",
+    "vi": "[Speaking in Finnish]"
+  },
+  {
+    "key": "01F656CDF8E14D53",
+    "seg": "single",
+    "speaker": "Blond Man",
+    "en": "[Speaking in Finnish]",
+    "vi": "[Speaking in Finnish]"
+  },
+  {
+    "key": "014C8EAEC590F45C",
+    "seg": "single",
+    "speaker": "Blond Man",
+    "en": "[Speaking in Finnish]",
+    "vi": "[Speaking in Finnish]"
+  },
+  {
+    "key": "010A727C3E01E041",
+    "seg": "single",
+    "speaker": "Blond Man",
+    "en": "[Speaking in Finnish]",
+    "vi": "[Speaking in Finnish]"
+  },
+  {
+    "key": "011C757FD3870C06",
+    "seg": "single",
+    "speaker": "Blond Man",
+    "en": "[Speaking in Finnish]",
+    "vi": "[Speaking in Finnish]"
+  },
+  {
+    "key": "0153C7ACA1D8DC2D",
+    "seg": "seg0",
+    "speaker": "Greenway",
+    "en": "Bond...?",
+    "vi": "Bond...?"
+  },
+  {
+    "key": "018939962A82A69B",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "009?",
+    "vi": "009?"
+  },
+  {
+    "key": "01D8D38B8E421ADC",
+    "seg": "single",
+    "speaker": "Isola",
+    "en": "[Speaking in Japanese] Make it an hour.",
+    "vi": "[Speaking in Japanese] Make it an hour."
+  },
+  {
+    "key": "01F92AE110ACC8E4",
+    "seg": "single",
+    "speaker": "Isola",
+    "en": "[Speaking in Japanese] Affirmative, Echo One. Give us twenty minutes.",
+    "vi": "[Speaking in Japanese] Affirmative, Echo One. Give us twenty minutes."
+  },
+  {
+    "key": "01C5EF70193D57E1",
+    "seg": "single",
+    "speaker": "Captain",
+    "en": "[Speaking in Japanese] This is Echo One. We have arrived at the destination.",
+    "vi": "[Speaking in Japanese] This is Echo One. We have arrived at the destination."
+  },
+  {
+    "key": "01C453CDC9A934FD",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Webb?",
+    "vi": "Webb?"
+  },
+  {
+    "key": "0117CB72441E06FF",
+    "seg": "single",
+    "speaker": "Mercenary",
+    "en": "[Laughs] Very funny. Keep moving, sir.",
+    "vi": "[Laughs] Very funny. Keep moving, sir."
+  },
+  {
+    "key": "01AA58FC41FC8725",
+    "seg": "single",
+    "speaker": "Mercenary",
+    "en": "Oh, [chuckle] you're not stupid after all...",
+    "vi": "Oh, [chuckle] you're not stupid after all..."
+  },
+  {
+    "key": "0189F2E9C7D6CC41",
+    "seg": "single",
+    "speaker": "Pirate",
+    "en": "[in Arabic] Doubt they'll be back.",
+    "vi": "[in Arabic] Doubt they'll be back."
+  },
+  {
+    "key": "01873E1A1B1FB837",
+    "seg": "single",
+    "speaker": "Greenway",
+    "en": "[Speaking in Arabic]",
+    "vi": "[Speaking in Arabic]"
+  },
+  {
+    "key": "01E8137426C9ACE1",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Bingo.",
+    "vi": "Bingo."
+  },
+  {
+    "key": "01116DC5B2CB7C06",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "M.",
+    "vi": "M."
+  },
+  {
+    "key": "01EE47244C69D081",
+    "seg": "seg0",
+    "speaker": "Greenway",
+    "en": "009.",
+    "vi": "009."
+  },
+  {
+    "key": "010BD7D1AE998790",
+    "seg": "seg0",
+    "speaker": "Greenway",
+    "en": "Bond?",
+    "vi": "Bond?"
+  },
+  {
+    "key": "010BD7D1AE998790",
+    "seg": "seg1",
+    "speaker": "Greenway",
+    "en": "[Coughs] Bond, are you okay?",
+    "vi": "[Coughs] Bond, are you okay?"
+  },
+  {
+    "key": "0198CED841725C06",
+    "seg": "single",
+    "speaker": "Bachchan",
+    "en": "[Speaking in Hindi]",
+    "vi": "[Speaking in Hindi]"
+  },
+  {
+    "key": "016F5619C05B97A6",
+    "seg": "single",
+    "speaker": "Greenway",
+    "en": "Shh...",
+    "vi": "Shh..."
+  },
+  {
+    "key": "017BEF54862821E8",
+    "seg": "single",
+    "speaker": "Bachchan",
+    "en": "[Speaking in Hindi]",
+    "vi": "[Speaking in Hindi]"
+  },
+  {
+    "key": "017303242FF5D4A5",
+    "seg": "seg1",
+    "speaker": "Leung",
+    "en": "[Speaking in Cantonese]",
+    "vi": "[Speaking in Cantonese]"
+  },
+  {
+    "key": "01530B2D7BB0181D",
+    "seg": "single",
+    "speaker": "Greenway",
+    "en": "Bond.",
+    "vi": "Bond."
+  },
+  {
+    "key": "01D8340D0317C2F9",
+    "seg": "seg0",
+    "speaker": "Bachchan",
+    "en": "[Speaking in Hindi]",
+    "vi": "[Speaking in Hindi]"
+  },
+  {
+    "key": "01608586675C7501",
+    "seg": "single",
+    "speaker": "Greenway",
+    "en": "Bond.",
+    "vi": "Bond."
+  },
+  {
+    "key": "01CF8AEEA25F377C",
+    "seg": "seg0",
+    "speaker": "Pirate",
+    "en": "[Whistles]",
+    "vi": "[Whistles]"
+  },
+  {
+    "key": "01DD76940BDE6B8A",
+    "seg": "single",
+    "speaker": "Pirate",
+    "en": "[Laughs] The only way I can see them pulling something like that off, is if the pilot left the keys in the ignition.",
+    "vi": "[Laughs] The only way I can see them pulling something like that off, is if the pilot left the keys in the ignition."
+  },
+  {
+    "key": "01B81F752D4ACAD6",
+    "seg": "single",
+    "speaker": "Pirate",
+    "en": "Cheikh!",
+    "vi": "Cheikh!"
+  },
+  {
+    "key": "01B3823EE0DEA704",
+    "seg": "seg1",
+    "speaker": "Pirate",
+    "en": "[Sighs] I'll go see what I can do about that engine block.",
+    "vi": "[Sighs] I'll go see what I can do about that engine block."
+  },
+  {
+    "key": "018B3BBF281C139D",
+    "seg": "single",
+    "speaker": "Pirate",
+    "en": "[Laughs] Bawma says otherwise. But go ahead, that I would pay to see.",
+    "vi": "[Laughs] Bawma says otherwise. But go ahead, that I would pay to see."
+  },
+  {
+    "key": "01283938C3F04EAB",
+    "seg": "seg0",
+    "speaker": "Bond",
+    "en": "Greenway?",
+    "vi": "Greenway?"
+  },
+  {
+    "key": "011B508BE0BBE4F9",
+    "seg": "single",
+    "speaker": "Moneypenny",
+    "en": "Bond.",
+    "vi": "Bond."
+  },
+  {
+    "key": "012B3ED941AEA40D",
+    "seg": "single",
+    "speaker": "Bawma",
+    "en": "[Laughs] You are a funny man!",
+    "vi": "[Laughs] You are a funny man!"
+  },
+  {
+    "key": "0163F93188C010E7",
+    "seg": "single",
+    "speaker": "Bawma",
+    "en": "[Laughs] The only terrorists in our home are the two of you!",
+    "vi": "[Laughs] The only terrorists in our home are the two of you!"
+  },
+  {
+    "key": "01859A62E40EC240",
+    "seg": "seg6",
+    "speaker": "Moneypenny",
+    "en": "turning random endeavours into a",
+    "vi": "turning random endeavours into a"
+  },
+  {
+    "key": "01C6704018EBE258",
+    "seg": "seg0",
+    "speaker": "Bond",
+    "en": "Casa De Bawma.",
+    "vi": "Casa De Bawma."
+  },
+  {
+    "key": "0136C03CD2BA8DC8",
+    "seg": "single",
+    "speaker": "Civilian",
+    "en": "Do you think he will hand her off to someone?",
+    "vi": "Do you think he will hand her off to someone?"
+  },
+  {
+    "key": "010A16D87C7C05E1",
+    "seg": "single",
+    "speaker": "Trainer",
+    "en": "Hammi?",
+    "vi": "Hammi?"
+  },
+  {
+    "key": "0110AAA6283697C9",
+    "seg": "single",
+    "speaker": "Pirate",
+    "en": "[Laughs] And?",
+    "vi": "[Laughs] And?"
+  },
+  {
+    "key": "015D4A6E24A5247C",
+    "seg": "seg1",
+    "speaker": "Trainer",
+    "en": "You felt like bringing him someone's teeth as a gift? [laughs]",
+    "vi": "You felt like bringing him someone's teeth as a gift? [laughs]"
+  },
+  {
+    "key": "012C5C41675F0562",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Moneypenny?",
+    "vi": "Moneypenny?"
+  },
+  {
+    "key": "0161FD9E6053F33D",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Greenway?",
+    "vi": "Greenway?"
+  },
+  {
+    "key": "01B229DA4BA550BB",
+    "seg": "seg1",
+    "speaker": "Ring Master",
+    "en": "The Hammer!",
+    "vi": "The Hammer!"
+  },
+  {
+    "key": "0185C414A52104DC",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Whitlock.",
+    "vi": "Whitlock."
+  },
+  {
+    "key": "016B338631451012",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Basil.",
+    "vi": "Basil."
+  },
+  {
+    "key": "018573A7F8E97FF8",
+    "seg": "single",
+    "speaker": "MI6 Staff",
+    "en": "[Chuckles] You're funny. What about you?",
+    "vi": "[Chuckles] You're funny. What about you?"
+  },
+  {
+    "key": "01969D9C4A34730C",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "[Sighs]",
+    "vi": "[Sighs]"
+  },
+  {
+    "key": "0190F8C029337345",
+    "seg": "single",
+    "speaker": "Q",
+    "en": "Bond?",
+    "vi": "Bond?"
+  },
+  {
+    "key": "0169EBBCD298734A",
+    "seg": "seg0",
+    "speaker": "M",
+    "en": "Moneypenny,",
+    "vi": "Moneypenny,"
+  },
+  {
+    "key": "019DA613CB2938A7",
+    "seg": "single",
+    "speaker": "Moneypenny",
+    "en": "[Scoffs]",
+    "vi": "[Scoffs]"
+  },
+  {
+    "key": "01A7FC9ED92E7FE8",
+    "seg": "single",
+    "speaker": "Q",
+    "en": "Bond!",
+    "vi": "Bond!"
+  },
+  {
+    "key": "01A5F57BBFFEEC24",
+    "seg": "single",
+    "speaker": "MI6 Staff",
+    "en": "Oh, good.",
+    "vi": "Oh, good."
+  },
+  {
+    "key": "013481118A01711B",
+    "seg": "seg0",
+    "speaker": "MI6 Staff",
+    "en": "Stirling.",
+    "vi": "Stirling."
+  },
+  {
+    "key": "012FA133BA2957D2",
+    "seg": "single",
+    "speaker": "Basil",
+    "en": "Iceland.",
+    "vi": "Iceland."
+  },
+  {
+    "key": "01D48A3652332D7D",
+    "seg": "single",
+    "speaker": "Kingsley",
+    "en": "I wonder if they're letting us go on the mission because we aced the nightclub yesterday.",
+    "vi": "I wonder if they're letting us go on the mission because we aced the nightclub yesterday."
+  },
+  {
+    "key": "012AC48DC526338F",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "How did they do?",
+    "vi": "How did they do?"
+  },
+  {
+    "key": "01628258B95F6FA2",
+    "seg": "seg0",
+    "speaker": "Kingsley",
+    "en": "Bond.",
+    "vi": "Bond."
+  },
+  {
+    "key": "019BFC515A75819E",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Kingsley. Nash.",
+    "vi": "Kingsley. Nash."
+  },
+  {
+    "key": "01C001257C39341E",
+    "seg": "single",
+    "speaker": "MI6 Staff",
+    "en": "[Whispers]",
+    "vi": "[Whispers]"
+  },
+  {
+    "key": "0112EF46ECEDC58F",
+    "seg": "single",
+    "speaker": "MI6 Staff",
+    "en": "[Whispers]",
+    "vi": "[Whispers]"
+  },
+  {
+    "key": "017E5D61CD27B6E8",
+    "seg": "seg0",
+    "speaker": "MI6 Staff",
+    "en": "Sir Nicholas.",
+    "vi": "Sir Nicholas."
+  },
+  {
+    "key": "01F9B710B76D3AD0",
+    "seg": "single",
+    "speaker": "MI6 Staff",
+    "en": "[Gasps]",
+    "vi": "[Gasps]"
+  },
+  {
+    "key": "01C12F4E5409481C",
+    "seg": "single",
+    "speaker": "MI6 Staff",
+    "en": "[Laughs] Whoo!",
+    "vi": "[Laughs] Whoo!"
+  },
+  {
+    "key": "01919FC583F5DACE",
+    "seg": "seg3",
+    "speaker": "MI6 Staff",
+    "en": "You can set it off on a timer,",
+    "vi": "You can set it off on a timer,"
+  },
+  {
+    "key": "01C4D6FB5EB7E018",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Greenway.",
+    "vi": "Greenway."
+  },
+  {
+    "key": "015B8A4B2EAC2360",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Ponsonby.",
+    "vi": "Ponsonby."
+  },
+  {
+    "key": "013966CD1E073369",
+    "seg": "single",
+    "speaker": "Ponsonby",
+    "en": "Bond.",
+    "vi": "Bond."
+  },
+  {
+    "key": "013319309A571278",
+    "seg": "seg0",
+    "speaker": "Bond",
+    "en": "Webb Industries.",
+    "vi": "Webb Industries."
+  },
+  {
+    "key": "018CF9EB27AEC021",
+    "seg": "single",
+    "speaker": "MI6 Staff",
+    "en": "[Chuckles] You could add that column in your notes.",
+    "vi": "[Chuckles] You could add that column in your notes."
+  },
+  {
+    "key": "01E8DF7503B7D10D",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Q?",
+    "vi": "Q?"
+  },
+  {
+    "key": "01DA2B0A17BB6F85",
+    "seg": "seg0",
+    "speaker": "Q",
+    "en": "Only recently. They're one of the UK's oldest defence contractors.",
+    "vi": "Only recently. They're one of the UK's oldest defence contractors."
+  },
+  {
+    "key": "0101C7EC19A32FC1",
+    "seg": "seg6",
+    "speaker": "M",
+    "en": "guiding you every step of the way.",
+    "vi": "guiding you every step of the way."
+  },
+  {
+    "key": "01FF096CF53DFEF2",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Cressida.",
+    "vi": "Cressida."
+  },
+  {
+    "key": "0149C7ED52D00768",
+    "seg": "seg1",
+    "speaker": "Clubber",
+    "en": "Shots! Shots! Shots! Shots!",
+    "vi": "Shots! Shots! Shots! Shots!"
+  },
+  {
+    "key": "01C56EB012EAE179",
+    "seg": "single",
+    "speaker": "Monroe",
+    "en": "[Laughs] Not mine, mate.",
+    "vi": "[Laughs] Not mine, mate."
+  },
+  {
+    "key": "017B1387D9394394",
+    "seg": "single",
+    "speaker": "Monroe",
+    "en": "Aha!",
+    "vi": "Aha!"
+  },
+  {
+    "key": "018C0B3BB49BDDB0",
+    "seg": "single",
+    "speaker": "Monroe",
+    "en": "[Thinking]",
+    "vi": "[Thinking]"
+  },
+  {
+    "key": "017031981B78F103",
+    "seg": "seg0",
+    "speaker": "Cressida",
+    "en": "Ugh, Monroe!",
+    "vi": "Ugh, Monroe!"
+  },
+  {
+    "key": "016E764AAAC5ADF1",
+    "seg": "single",
+    "speaker": "Stephen Bright",
+    "en": "Stephen Bright.",
+    "vi": "Stephen Bright."
+  },
+  {
+    "key": "015B9D4FE283B40A",
+    "seg": "single",
+    "speaker": "Monroe",
+    "en": "Cressida...",
+    "vi": "Cressida..."
+  },
+  {
+    "key": "0160DAE23129D92E",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "James Bond.",
+    "vi": "James Bond."
+  },
+  {
+    "key": "011B67B466A4D3FB",
+    "seg": "single",
+    "speaker": "Chambers",
+    "en": "[Giggles]",
+    "vi": "[Giggles]"
+  },
+  {
+    "key": "015DD8C8F089BE1D",
+    "seg": "single",
+    "speaker": "Cressida",
+    "en": "[Laughing]",
+    "vi": "[Laughing]"
+  },
+  {
+    "key": "018E4CF7A7189C24",
+    "seg": "single",
+    "speaker": "Ronson",
+    "en": "[Laughing]",
+    "vi": "[Laughing]"
+  },
+  {
+    "key": "017B37BE4A8C1C8F",
+    "seg": "single",
+    "speaker": "Nash",
+    "en": "[Laughing]",
+    "vi": "[Laughing]"
+  },
+  {
+    "key": "01B346DD8BC0DF98",
+    "seg": "single",
+    "speaker": "Monroe",
+    "en": "[Laughs]",
+    "vi": "[Laughs]"
+  },
+  {
+    "key": "013625985F6F5686",
+    "seg": "single",
+    "speaker": "Monroe",
+    "en": "[Snarls]",
+    "vi": "[Snarls]"
+  },
+  {
+    "key": "01AC2B5154308164",
+    "seg": "single",
+    "speaker": "Cressida",
+    "en": "Monroe.",
+    "vi": "Monroe."
+  },
+  {
+    "key": "011B35264E0C34D8",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "[Roars]",
+    "vi": "[Roars]"
+  },
+  {
+    "key": "01404FBE0C49D179",
+    "seg": "single",
+    "speaker": "Cressida",
+    "en": "Rosie Poole.",
+    "vi": "Rosie Poole."
+  },
+  {
+    "key": "01713A8A4DC2C705",
+    "seg": "single",
+    "speaker": "Cressida",
+    "en": "Cressida Bright.",
+    "vi": "Cressida Bright."
+  },
+  {
+    "key": "010DF922A1CCCE34",
+    "seg": "single",
+    "speaker": "Kingsley",
+    "en": "[Recruits chattering]",
+    "vi": "[Recruits chattering]"
+  },
+  {
+    "key": "0156FDC53AA4C9B5",
+    "seg": "single",
+    "speaker": "Webb Staff",
+    "en": "[Chuckles] Hope he doesn't break in half.",
+    "vi": "[Chuckles] Hope he doesn't break in half."
+  },
+  {
+    "key": "01674EB0911FE44C",
+    "seg": "seg1",
+    "speaker": "Webb Staff",
+    "en": "[Scoffs] Are these notifications even real?",
+    "vi": "[Scoffs] Are these notifications even real?"
+  },
+  {
+    "key": "01CBD5300440D5B0",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Somerset?",
+    "vi": "Somerset?"
+  },
+  {
+    "key": "01E36249171AE5EF",
+    "seg": "single",
+    "speaker": "Webb Staff",
+    "en": "And that, Eugene, is why you're in robotics and not PR.",
+    "vi": "And that, Eugene, is why you're in robotics and not PR."
+  },
+  {
+    "key": "0120842F02E9A30E",
+    "seg": "single",
+    "speaker": "Ferguson",
+    "en": "David Somerset?",
+    "vi": "David Somerset?"
+  },
+  {
+    "key": "01C3295934EC055C",
+    "seg": "seg1",
+    "speaker": "Webb Staff",
+    "en": "[Lowers voice] Someone wrote \"Regorger Finch\" in the bathroom.",
+    "vi": "[Lowers voice] Someone wrote \"Regorger Finch\" in the bathroom."
+  },
+  {
+    "key": "016286E7A96B3176",
+    "seg": "single",
+    "speaker": "Webb Staff",
+    "en": "Isola Vale?",
+    "vi": "Isola Vale?"
+  },
+  {
+    "key": "012FA9009E49FF57",
+    "seg": "seg0",
+    "speaker": "Bond",
+    "en": "Isola.",
+    "vi": "Isola."
+  },
+  {
+    "key": "01BA26589B80BF81",
+    "seg": "seg0",
+    "speaker": "Isola",
+    "en": "James?",
+    "vi": "James?"
+  },
+  {
+    "key": "0103C3FCBC63E56D",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Finch?",
+    "vi": "Finch?"
+  },
+  {
+    "key": "011F64FA9CDFB16E",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "[Grunts]",
+    "vi": "[Grunts]"
+  },
+  {
+    "key": "01BB54A53F93B83E",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Isola?",
+    "vi": "Isola?"
+  },
+  {
+    "key": "012B70BD1D00074B",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Moneypenny!",
+    "vi": "Moneypenny!"
+  },
+  {
+    "key": "015A1972B064945F",
+    "seg": "single",
+    "speaker": "Bond",
+    "en": "Isola!",
+    "vi": "Isola!"
+  },
+  {
+    "key": "01A2AD72567741EA",
+    "seg": "seg0",
+    "speaker": "M",
+    "en": "Hmm...",
+    "vi": "Hmm..."
+  },
+  {
+    "key": "01A2AD72567741EA",
+    "seg": "seg4",
+    "speaker": "M",
+    "en": "007?",
+    "vi": "007?"
+  }
+]
