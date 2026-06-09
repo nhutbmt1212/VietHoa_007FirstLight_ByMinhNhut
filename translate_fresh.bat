@@ -17,18 +17,7 @@ echo  FRESH - XOA HET VA DICH LAI TU DAU
 echo  CANH BAO: Toan bo ban dich cu se bi xoa!
 echo ============================================================
 echo.
-choice /C:YN /N /M "  Tiep tuc? [Y/N]: "
-if %ERRORLEVEL%==2 exit /b 0
-echo.
-
-echo [INIT] Khoi dong Ollama...
-taskkill /IM ollama.exe /F 2>nul
-taskkill /IM ollama_llama_server.exe /F 2>nul
-timeout /t 2 /nobreak >nul
-start "" "%OLLAMA%" serve
-timeout /t 4 /nobreak >nul
-"%OLLAMA%" run gemma3:12b "" 2>nul
-echo [OK] Model san sang.
+echo [INIT] Su dung NVIDIA API. Bo qua khoi dong Ollama.
 echo.
 
 set START_TIME=%TIME%
@@ -67,4 +56,4 @@ echo ============================================================
 echo  XONG!  Bat dau: %START_TIME%  ^|  Ket thuc: %TIME%
 echo  Chay inject_all.bat de dua vao game.
 echo ============================================================
-pause
+

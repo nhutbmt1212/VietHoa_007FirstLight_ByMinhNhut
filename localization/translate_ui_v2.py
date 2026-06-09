@@ -18,8 +18,9 @@ from pathlib import Path
 from datetime import datetime
 
 # ─── CẤU HÌNH ────────────────────────────────────────────────────
-OLLAMA_URL    = "http://localhost:11434/api/generate"
-MODEL         = "gemma3:12b"
+NVIDIA_API_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
+MODEL          = "qwen/qwen3-next-80b-a3b-instruct"
+NVIDIA_API_KEY = "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"
 
 SRC_FILE      = r"d:\VietHoa_007FirstLight\localization\extracted\ui.json"
 OUT_FILE      = r"d:\VietHoa_007FirstLight\007-firstlight-toolkit-main\examples\vietnamese\translations\ui.json"
@@ -289,34 +290,29 @@ def dict_translate(text: str) -> str | None:
 
 # ─── OLLAMA ──────────────────────────────────────────────────────
 def is_ollama_running() -> bool:
-    try:
-        req = urllib.request.urlopen("http://localhost:11434/api/tags", timeout=3)
-        return req.status == 200
-    except Exception:
-        return False
+    return True
 
 
 def ollama_generate(prompt: str) -> str:
     payload = json.dumps({
         "model": MODEL,
-        "prompt": prompt,
-        "system": SYSTEM_UI,
-        "stream": False,
-        "options": {
-            "temperature": TEMPERATURE,
-            "num_predict": 1500,  # Batch 40 strings, mỗi string ~10-30 từ
-            "num_ctx":     4096,  # Đủ cho UI strings ngắn
-            "num_gpu":     99,
-            "num_thread":  8,
-        }
+        "messages": [
+            {"role": "system", "content": SYSTEM_UI},
+            {"role": "user", "content": prompt}
+        ],
+        "temperature": TEMPERATURE,
+        "max_tokens": 1500,
     }).encode("utf-8")
     req = urllib.request.Request(
-        OLLAMA_URL, data=payload,
-        headers={"Content-Type": "application/json"}, method="POST"
+        NVIDIA_API_URL, data=payload,
+        headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {NVIDIA_API_KEY}"
+        }, method="POST"
     )
     with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
         result = json.loads(resp.read().decode("utf-8"))
-        return result.get("response", "").strip()
+        return result["choices"][0]["message"]["content"].strip()
 
 
 def parse_numbered_response(response: str, originals: list) -> list:
@@ -343,11 +339,21 @@ def parse_numbered_response(response: str, originals: list) -> list:
     for i, orig in enumerate(originals):
         t = parsed.get(i + 1, '').strip().strip('"').strip("'")
         if t:
-            # Kiểm tra placeholder vẫn còn
-            orig_ph = set(re.findall(r'\{[^}]+\}', orig))
-            trans_ph = set(re.findall(r'\{[^}]+\}', t))
+            # Kiểm tra placeholder vẫn còn (không phân biệt hoa thường)
+            orig_ph = set(p.lower() for p in re.findall(r'\{[^}]+\}', orig))
+            trans_ph = set(p.lower() for p in re.findall(r'\{[^}]+\}', t))
             if orig_ph and not orig_ph.issubset(trans_ph):
                 t = orig  # rollback nếu mất placeholder
+            else:
+                # Khôi phục chính xác chữ hoa/thường của placeholder
+                orig_ph_list = re.findall(r'\{[^}]+\}', orig)
+                trans_ph_list = re.findall(r'\{[^}]+\}', t)
+                ph_map = {p.lower(): p for p in orig_ph_list}
+                for t_ph in trans_ph_list:
+                    lower_ph = t_ph.lower()
+                    if lower_ph in ph_map and t_ph != ph_map[lower_ph]:
+                        t = t.replace(t_ph, ph_map[lower_ph])
+                        
         results.append(fix_spacing(t) if t else orig)
     return results
 

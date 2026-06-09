@@ -18,8 +18,9 @@ from pathlib import Path
 from collections import deque
 
 # ─── CẤU HÌNH ────────────────────────────────────────────────────
-OLLAMA_URL    = "http://localhost:11434/api/generate"
-MODEL         = "gemma3:12b"
+NVIDIA_API_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
+MODEL          = "qwen/qwen3-next-80b-a3b-instruct"
+NVIDIA_API_KEY = "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"
 
 SRC_FILE      = r"d:\VietHoa_007FirstLight\localization\extracted\dialogue.json"
 OUT_FILE      = r"d:\VietHoa_007FirstLight\007-firstlight-toolkit-main\examples\vietnamese\translations\dialogue.json"
@@ -339,6 +340,20 @@ def fix_quoted_brackets(orig: str, trans: str) -> str:
     return trans
 
 
+def restore_original_tags(orig: str, trans: str) -> str:
+    """Khôi phục chính xác chữ hoa/thường của tag nếu AI lỡ đổi case."""
+    orig_tags = re.findall(r'\[[^\]]+\]', orig)
+    trans_tags = re.findall(r'\[[^\]]+\]', trans)
+    
+    # Tạo dictionary map từ lowercase tag sang original tag
+    tag_map = {t.lower(): t for t in orig_tags}
+    
+    for t_tag in trans_tags:
+        lower_t = t_tag.lower()
+        if lower_t in tag_map and t_tag != tag_map[lower_t]:
+            trans = trans.replace(t_tag, tag_map[lower_t])
+    return trans
+
 def post_process(text: str, speaker: str, orig: str = "") -> str:
     """Áp dụng toàn bộ post-processing."""
     if not text:
@@ -348,6 +363,7 @@ def post_process(text: str, speaker: str, orig: str = "") -> str:
     text = fix_enemy_pronouns(text, speaker)
     if orig:
         text = fix_quoted_brackets(orig, text)
+        text = restore_original_tags(orig, text)
     text = fix_spacing(text)
     return text
 
@@ -391,34 +407,29 @@ def should_skip(text: str) -> bool:
 
 # ─── OLLAMA ───────────────────────────────────────────────────────
 def is_ollama_running() -> bool:
-    try:
-        req = urllib.request.urlopen("http://localhost:11434/api/tags", timeout=3)
-        return req.status == 200
-    except Exception:
-        return False
+    return True
 
 
 def ollama_generate(prompt: str, system: str = SYSTEM_PROMPT) -> str:
     payload = json.dumps({
         "model": MODEL,
-        "prompt": prompt,
-        "system": system,
-        "stream": False,
-        "options": {
-            "temperature": TEMPERATURE,
-            "num_predict": 800,   # Dialogue ngắn, không cần 3000
-            "num_ctx":     4096,  # Đủ cho system+context+batch, giảm KV cache
-            "num_gpu":     99,
-            "num_thread":  8,
-        }
+        "messages": [
+            {"role": "system", "content": system},
+            {"role": "user", "content": prompt}
+        ],
+        "temperature": TEMPERATURE,
+        "max_tokens": 800,
     }).encode("utf-8")
     req = urllib.request.Request(
-        OLLAMA_URL, data=payload,
-        headers={"Content-Type": "application/json"}, method="POST"
+        NVIDIA_API_URL, data=payload,
+        headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {NVIDIA_API_KEY}"
+        }, method="POST"
     )
     with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
         result = json.loads(resp.read().decode("utf-8"))
-        return result.get("response", "").strip()
+        return result["choices"][0]["message"]["content"].strip()
 
 
 # ─── CONTEXT WINDOW ───────────────────────────────────────────────
@@ -467,8 +478,28 @@ def parse_numbered_response(response: str, count: int, originals: list) -> list:
     results = []
     for i, orig in enumerate(originals):
         t = parsed.get(i + 1, '').strip().strip('"').strip("'")
-        # Bỏ prefix [Speaker] nếu AI trả về
-        t = re.sub(r'^\[[^\]]+\]\s*', '', t).strip()
+        
+        # Bỏ prefix [Speaker] nếu AI trả về, nhưng KHÔNG bỏ [Tag] có trong bản gốc
+        while True:
+            m_tag = re.match(r'^(\[[^\]]+\])[:\-\s]*(.*)', t)
+            if m_tag:
+                tag_text = m_tag.group(1)
+                orig_tags_lower = [tag.lower() for tag in re.findall(r'\[[^\]]+\]', orig)]
+                if tag_text.lower() not in orig_tags_lower:
+                    # AI chèn thêm (ví dụ speaker tag) -> bỏ qua
+                    t = m_tag.group(2).strip()
+                else:
+                    break
+            else:
+                break
+                
+        # Bỏ prefix dạng Speaker: hoặc Speaker - nếu có (AI đôi khi thêm vào)
+        m_speaker = re.match(r'^([A-Z][a-zA-Z0-9_ ]{1,20})[:\-]\s*(.*)', t)
+        if m_speaker:
+            # Chỉ loại bỏ nếu text giống với tên nhân vật hoặc format rõ ràng
+            speaker_name = m_speaker.group(1)
+            t = m_speaker.group(2).strip()
+
         results.append(t if t else orig)
     return results
 
@@ -645,8 +676,18 @@ def main():
         segs = entry.get("segments", {})
         for sk, txt in segs.items():
             seg_id = f"{key}::{sk}"
+            
+            # Lấy bản dịch hiện tại nếu có
+            current_trans = out_data.get(key, {}).get("segments", {}).get(sk, "")
+            
             if seg_id in progress:
-                continue
+                # Dù có trong progress, nhưng nếu bản dịch vẫn y hệt bản gốc (bị rollback trước đó)
+                # và câu này không thuộc diện should_skip -> Dịch lại
+                if current_trans == txt and not should_skip(txt):
+                    pass # Cần dịch lại
+                else:
+                    continue
+                    
             if not should_skip(txt):
                 todo.append((key, sk, entry.get("speaker_name", ""), txt))
 
