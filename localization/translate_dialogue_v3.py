@@ -530,7 +530,7 @@ def translate_batch_with_context(
     # Build danh sách câu cần dịch
     lines_to_translate = []
     for i, (ek, sk, spk, txt) in enumerate(items):
-        lines_to_translate.append(f"{i+1}. [{spk}] {txt}")
+        lines_to_translate.append(f"{i+1}. {spk}: {txt}")
     numbered = "\n".join(lines_to_translate)
 
     # Build prompt
@@ -551,7 +551,9 @@ def translate_batch_with_context(
 ━━━ CÂU CẦN DỊCH ━━━
 {numbered}
 
-Trả về đúng {len(items)} dòng đánh số, chỉ phần dịch (không cần giữ phần [Tên nhân vật]):"""
+Trả về đúng {len(items)} dòng đánh số, CHỈ phần câu dịch.
+KHÔNG viết lại tên nhân vật (ví dụ: Bond:, Hostile:).
+TUYỆT ĐỐI KHÔNG xóa hoặc dịch các thẻ trong ngoặc vuông như [Laughs], [In Montenegrin] v.v. Bắt buộc phải giữ nguyên chúng ở đầu câu!"""
 
     try:
         response = ollama_generate(prompt)
